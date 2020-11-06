@@ -1,0 +1,355 @@
+	/*font-family: 'Montserrat', sans-serif;*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	color: ; 
+}
+
+/*header*/
+
+header{
+	background-color: black;
+	padding: 0px 0;
+}
+.menu ul li a{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 13px;
+	color: white !important;
+	text-transform: uppercase;
+	outline: none;
+	padding: 0 40px !important;
+	transition: .3s;
+}
+.menu ul li:last child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: green !important;
+}
+
+/*header end*/
+
+/*carousel-inner*/
+
+.carousel{
+	display: table;
+	width: 100%;
+	height: 100vh;
+	background: #000;
+}
+.carousel-indicators{
+	right: 0;
+	bottom: 10px;
+	left: 0;
+	justify-content: center;
+	padding-left: 0;
+	margin-right: 15%;
+	margin-left: 15%;
+	margin-top: 0;
+}
+.carousel-indicators li{
+	cursor: pointer;
+}
+.carousel h1{
+	font-family: 'Montserrat', sans-serif;
+	    margin-bottom: 30px;
+	    font-size: 48px;
+	    font-weight: 700;
+}
+.carousel p{
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 0 auto 30px auto;
+	color: black !important;
+		
+}
+.carousel button{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	border-radius: 50px;
+	transition: 0.5s;
+	margin: 10px;
+	color: #fff !important;
+	background-color: #18d26e !important;
+}
+
+
+/*about us*/
+
+.about-us{
+	padding-top: 80px;
+	padding-bottom: 100px;
+}
+.c_title{}
+.c_h1{
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 50px;
+
+}
+.c_p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10px;
+	font-weight: 400;
+	text-align: center;
+	padding-bottom: 50px;
+	color: #333;
+}
+.about .about-col h2{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 700;
+	color: #000;
+	padding: 0;
+	margin: 40px 0 12px 0
+}
+.about .about-col{
+	background: #fff !important;
+	border-radius: 0 0 4px 4px;
+	box-shadow: 0px 12px 0, 0, 0, 0.08;
+	margin-bottom: 20px;
+
+}
+.about .about-col h2 a:hover{
+	color: yellow;
+	transition: 0.5s;
+}
+.about .about-col p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	color: #333;
+	margin-bottom: 0;
+	padding: 0 20px 20px 20px;
+}
+/*about us*/
+
+/*service section*/
+.service{
+	background: #fff;
+	background-size: cover;	
+}
+.c_title{
+	visibility: visible;
+	animation-name: fadeInup;
+}
+.c_h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 32px;
+	font-weight: 700;
+	color: #111;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 15px;
+}
+.c_p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #333;
+	text-align: center;
+	padding: 0;
+	margin: 0 0 30px 0;
+	padding-bottom: 30px;			
+}
+
+.m_t_60{
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 30px;
+	margin-top: 60px;
+	visibility: visible;
+	animation-duration: 1.4s;
+	animation-name: bounceInUp;
+
+}
+.s_icon{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 36px;
+	color: #18d26e;
+	line-height: 1;
+	transition: 0,5s;
+}
+.s_text{}
+.s_text h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 700px;
+	margin-bottom: 15px;
+	cursor: pointer;
+	color: #18d26e
+	transition: 0.5s;
+}
+
+.s_text p{
+	font-size: 14px;
+	font-weight: 400;
+	color: #666666;
+	line-height: 24px;
+	margin-top: 10px;
+	margin-bottom: 13px;
+}
+/*service */
+
+/*call to action */
+
+.red{
+	min-height: 300px;
+	text-align: center;
+	background-color: aqua;
+	padding: 60px 0;
+}
+.red h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 28px;
+	font-weight: 700;
+	color: #fff;
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+.red p{
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	font-weight: 400;
+	padding: 0;
+	margin: 0 0 30px 0;
+}
+.red button{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 16px;
+	transition: 0.5s;
+	border:2px solid #fff;
+	background-color: transparent;
+}
+/*====================*/
+
+/*Our skills*/
+
+.sed{
+	margin-top: 30px;
+}
+.sed h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 32px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	color: #111;
+	padding-bottom: 15px;
+	margin: 0 0 20px 0;
+	padding: 0;
+}	
+.sed p{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400px;
+	text-align: center;
+	padding-bottom: 30px;
+	color: #333;
+	padding: 0;
+	margin: 0 0 30px 0;
+}
+.progress{
+	height: 35px;
+	margin-bottom: 10px;
+	background-color:
+}
+/*=======================*/
+
+/*Facts*/
+
+.sit{
+	margin-top: 40px;
+	margin-bottom: 30px;
+	font-family: 'Montserrat', sans-serif;
+	color: #666666;
+	visibility: visible;
+	animation-name: fadeIn;
+}
+.sit h1{
+	margin-bottom: 30px;
+	margin-top: 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 32px;
+	color: #111;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 0;
+}
+.sit p{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-weight: 400;
+	color: #333;
+	padding: 0;
+}
+.suc{}
+.suc h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 48px;
+	font-weight: bold;
+	display: block;
+	color: #18d26e;
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+/*our portfolio */
+
+
+.portfolio h1{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 48px;
+	font-weight: 700;
+	margin-bottom: 40px;
+	margin-top: 30px;
+}
+.portfolio .portfolio-item .portfolio-info h4 a{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	color: #333;
+	transition: 0.5s;
+}
+
+/*===================*/
+
+/*Our Team*/
+.section-header{
+	background: #fff;
+	padding: 60px 0;
+	visibility: visible;
+	animation-name: fadeInUp;
+}
+.section-header h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 32px;
+	font-weight: 700;
+	color: #111;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 15px;
+}
+.section-header p{
+	text-align: center;
+	padding-bottom: 30px;
+	color: #333;
+	font-weight: 400;
+	padding: 0;
+	margin: 0 0 30px 0;
+}
+
+
+
+
+
+
